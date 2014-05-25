@@ -1,4 +1,4 @@
-Repo,URL.Branch
+Repo,URL,Branch
 awk,git@bitbucket.org:robinrob/awk.git,master
 c,git@bitbucket.org:robinrob/c.git,master
 c-plus-plus,git@bitbucket.org:robinrob/c-plus-plus.git,master

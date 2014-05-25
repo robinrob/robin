@@ -28,12 +28,14 @@
 [submodule "ruby"]
 	path = ruby
 	url = git@bitbucket.org:robinrob/ruby.git
+	branch = master
 [submodule "sh"]
 	path = sh
 	url = git@bitbucket.org:robinrob/sh.git
 [submodule "php"]
 	path = php
 	url = git@bitbucket.org:robinrob/php.git
+	branch = master
 [submodule "awk"]
 	path = awk
 	url = git@bitbucket.org:robinrob/awk.git

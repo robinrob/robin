@@ -8,6 +8,6 @@ CSV.foreach("repos.csv", :headers => true) do |csv_obj|
   url = csv_obj['URL']
   branch = csv_obj['Branch']
   
-  system("git submodule add -f -b #{branch} #{url} #{repo}")  
+  system("git submodule add -b #{branch} -f #{url} #{repo}")  
   
 end
