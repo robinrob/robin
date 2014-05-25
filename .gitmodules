@@ -1,0 +1,36 @@
+[submodule "c"]
+	path = c
+	url = git@bitbucket.org:robinrob/c.git
+[submodule "dotfiles"]
+	path = dotfiles
+	url = git@bitbucket.org:robinrob/dotfiles.git
+[submodule "force.com"]
+	path = force.com
+	url = git@bitbucket.org:robinrob/force.com.git
+[submodule "html-css"]
+	path = html-css
+	url = git@bitbucket.org:robinrob/html-css.git
+[submodule "java"]
+	path = java
+	url = git@bitbucket.org:robinrob/java.git
+[submodule "javascript"]
+	path = javascript
+	url = git@bitbucket.org:robinrob/javascript.git
+[submodule "perl"]
+	path = perl
+	url = git@bitbucket.org:robinrob/perl.git
+[submodule "python"]
+	path = python
+	url = git@bitbucket.org:robinrob/python.git
+[submodule "robins-rakefile"]
+	path = robins-rakefile
+	url = git@bitbucket.org:robinrob/rakefile.git
+[submodule "ruby"]
+	path = ruby
+	url = git@bitbucket.org:robinrob/ruby.git
+[submodule "sh"]
+	path = sh
+	url = git@bitbucket.org:robinrob/sh.git
+[submodule "php"]
+	path = php
+	url = git@bitbucket.org:robinrob/php.git
