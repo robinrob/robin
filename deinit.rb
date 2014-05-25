@@ -9,7 +9,7 @@ CSV.foreach("repos.csv", :headers => true) do |csv_obj|
   branch = csv_obj['Branch']
   
   system("rm -rf #{repo}")
-  system("git rm -r --cached #{repo}")
+  # system("git rm -r --cached #{repo}")
   system("git submodule deinit #{repo}")
   
 end
