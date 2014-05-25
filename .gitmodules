@@ -34,3 +34,9 @@
 [submodule "php"]
 	path = php
 	url = git@bitbucket.org:robinrob/php.git
+[submodule "awk"]
+	path = awk
+	url = git@bitbucket.org:robinrob/awk.git
+[submodule "c-plus-plus"]
+	path = c-plus-plus
+	url = git@bitbucket.org:robinrob/c-plus-plus.git

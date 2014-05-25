@@ -1,5 +1,7 @@
 Repo,URL
+awk,git@bitbucket.org:robinrob/awk.git
 c,git@bitbucket.org:robinrob/c.git
+c-plus-plus,git@bitbucket.org:robinrob/c-plus-plus.git
 dotfiles,git@bitbucket.org:robinrob/dotfiles.git
 force.com,git@bitbucket.org:robinrob/force.com.git
 html-css,git@bitbucket.org:robinrob/html-css.git
