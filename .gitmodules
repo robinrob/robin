@@ -25,9 +25,6 @@
 [submodule "robins-rakefile"]
 	path = robins-rakefile
 	url = git@bitbucket.org:robinrob/rakefile.git
-[submodule "ruby"]
-	path = ruby
-	url = git@bitbucket.org:robinrob/ruby.git
 [submodule "sh"]
 	path = sh
 	url = git@bitbucket.org:robinrob/sh.git
@@ -40,3 +37,6 @@
 [submodule "c-plus-plus"]
 	path = c-plus-plus
 	url = git@bitbucket.org:robinrob/c-plus-plus.git
+[submodule "ruby"]
+	path = ruby
+	url = git@bitbucket.org:robinrob/ruby.git
