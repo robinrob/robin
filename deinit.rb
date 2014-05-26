@@ -4,6 +4,8 @@ require 'csv'
 
 if ARGV.size() == 2
   repo = ARGV[1]
+else
+  deinit_all()
 end
 
 
@@ -13,7 +15,7 @@ def deinit_all()
   
     deinit_repo(repo)
     system("rm .gitmodules")
-    
+     
   end
   
 end
