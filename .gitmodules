@@ -1,44 +1,4 @@
-[submodule "awk"]
-	path = awk
-	url = git@bitbucket.org:robinrob/awk.git
-	branch = master
-[submodule "dotfiles"]
-	path = dotfiles
-	url = git@bitbucket.org:robinrob/dotfiles.git
-	branch = master
-[submodule "force.com"]
-	path = force.com
-	url = git@bitbucket.org:robinrob/force.com.git
-	branch = master
-[submodule "html-css"]
-	path = html-css
-	url = git@bitbucket.org:robinrob/html-css.git
-	branch = master
-[submodule "java"]
-	path = java
-	url = git@bitbucket.org:robinrob/java.git
-	branch = master
-[submodule "javascript"]
-	path = javascript
-	url = git@bitbucket.org:robinrob/javascript.git
-	branch = master
-[submodule "perl"]
-	path = perl
-	url = git@bitbucket.org:robinrob/perl.git
-	branch = master
-[submodule "python"]
-	path = python
-	url = git@bitbucket.org:robinrob/python.git
-	branch = master
-[submodule "robins-rakefile"]
-	path = robins-rakefile
-	url = git@bitbucket.org:robinrob/rakefile.git
-	branch = master
-[submodule "ruby"]
-	path = ruby
-	url = git@bitbucket.org:robinrob/ruby.git
-	branch = master
-[submodule "sh"]
-	path = sh
-	url = git@bitbucket.org:robinrob/sh.git
+[submodule "php"]
+	path = php
+	url = git@bitbucket.org:robinrob/php.git
 	branch = master
