@@ -15,7 +15,7 @@ end
 
 def deinit(repo)
   system("sudo rm -rf #{repo}")
-  # system("git rm -r --cached #{repo}")
+  system("git rm -r --cached #{repo}")
   system("git submodule deinit #{repo}")
 end
 
