@@ -9,6 +9,7 @@ def deinit_all()
   end
   
   system("rm .gitmodules")
+  system("rm -rf .git/modules/")
   
 end
 
@@ -17,6 +18,7 @@ def deinit(repo)
   system("sudo rm -rf #{repo}")
   system("git rm -r --cached #{repo}")
   system("git submodule deinit #{repo}")
+  system("rm -rf .git/modules/#{repo}}")
 end
 
 
