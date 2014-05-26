@@ -13,12 +13,14 @@ def deinit_all()
   
     deinit_repo(repo)
     system("rm .gitmodules")
+    
+  end
   
 end
 
 
 def denit(repo)
-  system("rm -rf #{repo}")
+  system("sudo rm -rf #{repo}")
   # system("git rm -r --cached #{repo}")
   system("git submodule deinit #{repo}")
 end

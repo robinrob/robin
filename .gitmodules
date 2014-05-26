@@ -1,4 +1,0 @@
-[submodule "php"]
-	path = php
-	url = git@bitbucket.org:robinrob/php.git
-	branch = master
