@@ -1,6 +1,6 @@
 # Installaton
 
-After cloning the git@bitbucket.org:robinrob/programming.git repo, do this:
+In order to checkout the HEAD of master for each submodule repo (instead of a detached commit), after cloning the git@bitbucket.org:robinrob/programming.git repo, do this in each git repo that has subdirectories:
 
 ## Removing submodules
 If directory contains the submodule subdirectories:
@@ -20,3 +20,5 @@ This will re-add all submodules and checkout the HEAD of the branch specified in
 ## Initialising submodules
 
 - run install.rb
+
+This will init and update (cloning all commit references for each submodule).
