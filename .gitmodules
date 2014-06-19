@@ -58,3 +58,6 @@
 	path = local
 	url = git@bitbucket.org:robinrob/local.git
 	branch = master
+[submodule "zsh"]
+	path = zsh
+	url = git@bitbucket.org:robinrob/zsh.git
