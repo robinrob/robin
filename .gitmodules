@@ -61,3 +61,10 @@
 [submodule "zsh"]
 	path = zsh
 	url = git@bitbucket.org:robinrob/zsh.git
+[submodule "submodule"]
+	path = submodule
+	url = git@bitbucket.org:robinrob/submodule.git
+[submodule "rake"]
+	path = rake
+	url = git@bitbucket.org:robinrob/rakefile.git
+	branch = master
