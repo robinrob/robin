@@ -64,6 +64,7 @@
 [submodule "submodule"]
 	path = submodule
 	url = git@bitbucket.org:robinrob/submodule.git
+	branch = master
 [submodule "rake"]
 	path = rake
 	url = git@bitbucket.org:robinrob/rakefile.git
