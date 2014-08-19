@@ -69,3 +69,6 @@
 	path = rake
 	url = git@bitbucket.org:robinrob/rakefile.git
 	branch = master
+[submodule "aws"]
+	path = aws
+	url = git@bitbucket.org:robinrob/aws.git
