@@ -15,3 +15,4 @@ ruby,git@bitbucket.org:robinrob/ruby.git,master
 sh,git@bitbucket.org:robinrob/sh.git,master
 zsh,git@bitbucket.org:robinrob/zsh.git,master
 local,git@bitbucket.org:robinrob/local.git,master
+aws,git@bitbucket.org:robinrob/aws.git,master
