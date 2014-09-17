@@ -10,10 +10,6 @@
 	path = c-plus-plus
 	url = git@bitbucket.org:robinrob/c-plus-plus.git
 	branch = master
-[submodule "dotfiles"]
-	path = dotfiles
-	url = git@bitbucket.org:robinrob/dotfiles.git
-	branch = master
 [submodule "force.com"]
 	path = force.com
 	url = git@bitbucket.org:robinrob/force.com.git
@@ -49,10 +45,6 @@
 [submodule "php"]
 	path = php
 	url = git@bitbucket.org:robinrob/php.git
-	branch = master
-[submodule "local"]
-	path = local
-	url = git@bitbucket.org:robinrob/local.git
 	branch = master
 [submodule "zsh"]
 	path = zsh
