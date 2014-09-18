@@ -60,3 +60,6 @@
 [submodule "aws"]
 	path = aws
 	url = git@bitbucket.org:robinrob/aws.git
+[submodule "scala"]
+	path = scala
+	url = git@bitbucket.org:robinrob/scala.git
