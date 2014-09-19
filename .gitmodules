@@ -42,10 +42,6 @@
 	path = sh
 	url = git@bitbucket.org:robinrob/sh.git
 	branch = master
-[submodule "php"]
-	path = php
-	url = git@bitbucket.org:robinrob/php.git
-	branch = master
 [submodule "zsh"]
 	path = zsh
 	url = git@bitbucket.org:robinrob/zsh.git
