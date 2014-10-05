@@ -56,3 +56,6 @@
 [submodule "scala"]
 	path = scala
 	url = git@bitbucket.org:robinrob/scala.git
+[submodule "ocaml"]
+	path = ocaml
+	url = git@bitbucket.org:robinrob/ocaml.git
