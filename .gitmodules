@@ -1,3 +1,9 @@
+[submodule "awk"]
+  path = awk
+  url = git@bitbucket.org:robinrob/awk.git
+[submodule "aws"]
+  path = aws
+  url = git@bitbucket.org:robinrob/aws.git
 [submodule "c"]
   path = c
   url = git@bitbucket.org:robinrob/c.git
@@ -6,6 +12,9 @@
   path = c-plus-plus
   url = git@bitbucket.org:robinrob/c-plus-plus.git
   branch = master
+[submodule "coffeescript"]
+  path = coffeescript
+  url = git@bitbucket.org:robinrob/coffeescript.git
 [submodule "force.com"]
   path = force.com
   url = git@bitbucket.org:robinrob/force.com.git
@@ -22,6 +31,9 @@
   path = javascript
   url = git@bitbucket.org:robinrob/javascript.git
   branch = master
+[submodule "ocaml"]
+  path = ocaml
+  url = git@bitbucket.org:robinrob/ocaml.git
 [submodule "perl"]
   path = perl
   url = git@bitbucket.org:robinrob/perl.git
@@ -30,10 +42,17 @@
   path = python
   url = git@bitbucket.org:robinrob/python.git
   branch = master
+[submodule "rake"]
+  path = rake
+  url = git@bitbucket.org:robinrob/rakefile.git
+  branch = master
 [submodule "ruby"]
   path = ruby
   url = git@bitbucket.org:robinrob/ruby.git
   branch = master
+[submodule "scala"]
+  path = scala
+  url = git@bitbucket.org:robinrob/scala.git
 [submodule "sh"]
   path = sh
   url = git@bitbucket.org:robinrob/sh.git
@@ -42,22 +61,3 @@
   path = zsh
   url = git@bitbucket.org:robinrob/zsh.git
   branch = master
-[submodule "rake"]
-  path = rake
-  url = git@bitbucket.org:robinrob/rakefile.git
-  branch = master
-[submodule "aws"]
-  path = aws
-  url = git@bitbucket.org:robinrob/aws.git
-[submodule "ocaml"]
-  path = ocaml
-  url = git@bitbucket.org:robinrob/ocaml.git
-[submodule "coffeescript"]
-  path = coffeescript
-  url = git@bitbucket.org:robinrob/coffeescript.git
-[submodule "scala"]
-  path = scala
-  url = git@bitbucket.org:robinrob/scala.git
-[submodule "awk"]
-	path = awk
-	url = git@bitbucket.org:robinrob/awk.git
