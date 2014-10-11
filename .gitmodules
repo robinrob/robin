@@ -2,7 +2,7 @@
   path = c
   url = git@bitbucket.org:robinrob/c.git
   branch = master
-[submodule "c"]
+[submodule "c-plus-plus"]
   path = c-plus-plus
   url = git@bitbucket.org:robinrob/c-plus-plus.git
   branch = master
