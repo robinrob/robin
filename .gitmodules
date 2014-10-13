@@ -16,7 +16,7 @@
   path = force.com
   url = git@bitbucket.org:robinrob/force.com.git
   branch = master
-[submodule "html"]
+[submodule "html-css"]
   path = html-css
   url = git@bitbucket.org:robinrob/html-css.git
   branch = master
@@ -61,3 +61,6 @@
   path = zsh
   url = git@bitbucket.org:robinrob/zsh.git
   branch = master
+[submodule "awk"]
+	path = awk
+	url = git@bitbucket.org:robinrob/awk.git
