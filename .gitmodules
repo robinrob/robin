@@ -43,8 +43,8 @@
   url = git@bitbucket.org:robinrob/python.git
   branch = master
 [submodule "rake"]
-  path = rake
-  url = git@bitbucket.org:robinrob/rakefile.git
+	path = rake
+	url = git@bitbucket.org:robinrob/rakefile.git
   branch = master
 [submodule "ruby"]
   path = ruby
