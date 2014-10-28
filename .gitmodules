@@ -3,6 +3,10 @@
   url = git@bitbucket.org:robinrob/awk.git
   branch = master
   owner = robinrob
+[submodule "aws"]
+  path = aws
+  url = git@bitbucket.org:robinrob/aws.git
+  owner = robinrob
 [submodule "c"]
   path = c
   url = git@bitbucket.org:robinrob/c.git
@@ -13,10 +17,9 @@
   url = git@bitbucket.org:robinrob/c-plus-plus.git
   branch = master
   owner = robinrob
-[submodule "force"]
-  path = force.com
-  url = git@bitbucket.org:robinrob/force.com.git
-  branch = master
+[submodule "force_com"]
+  path = force_com
+  url = git@bitbucket.org:robinrob/force.com
 [submodule "html-css"]
   path = html-css
   url = git@bitbucket.org:robinrob/html-css.git
@@ -30,6 +33,10 @@
   url = git@bitbucket.org:robinrob/javascript.git
   branch = master
   owner = robinrob
+[submodule "ocaml"]
+  path = ocaml
+  url = git@bitbucket.org:robinrob/ocaml.git
+  owner = robinrob
 [submodule "perl"]
   path = perl
   url = git@bitbucket.org:robinrob/perl.git
@@ -39,11 +46,19 @@
   url = git@bitbucket.org:robinrob/python.git
   branch = master
   owner = robinrob
+[submodule "rake"]
+  path = rake
+  url = git@bitbucket.org:robinrob/rakefile.git
+  branch = master
+  owner = robinrob
 [submodule "ruby"]
   path = ruby
   url = git@bitbucket.org:robinrob/ruby.git
   branch = master
   owner = robinrob
+[submodule "scala"]
+  path = scala
+  url = git@bitbucket.org:robinrob/scala.git
 [submodule "sh"]
   path = sh
   url = git@bitbucket.org:robinrob/sh.git
@@ -53,19 +68,3 @@
   url = git@bitbucket.org:robinrob/zsh.git
   branch = master
   owner = robinrob
-[submodule "rake"]
-  path = rake
-  url = git@bitbucket.org:robinrob/rakefile.git
-  branch = master
-  owner = robinrob
-[submodule "aws"]
-  path = aws
-  url = git@bitbucket.org:robinrob/aws.git
-  owner = robinrob
-[submodule "ocaml"]
-  path = ocaml
-  url = git@bitbucket.org:robinrob/ocaml.git
-  owner = robinrob
-[submodule "scala"]
-	path = scala
-	url = git@bitbucket.org:robinrob/scala.git
