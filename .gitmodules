@@ -20,9 +20,6 @@
 [submodule "coffeescript"]
   path = coffeescript
   url = git@bitbucket.org:robinrob/coffeescript
-[submodule "force_com"]
-  path = force_com
-  url = git@bitbucket.org:robinrob/force.com
 [submodule "html-css"]
   path = html-css
   url = git@bitbucket.org:robinrob/html-css.git
@@ -71,3 +68,6 @@
   url = git@bitbucket.org:robinrob/zsh.git
   branch = master
   owner = robinrob
+[submodule "force_com"]
+	path = force_com
+	url = git@bitbucket.org:robinrob/force.com

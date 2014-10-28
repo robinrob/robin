@@ -75,9 +75,8 @@ index="client-*" sourcetype=httpmon
 index=client-cloudreach host=cr-sfdc | timechart span=10d max(data_space_percent)
 
 
-index=client-epub* sourcetype="Perfmon:Free Disk Space" host=epub-sql-0* instance=D: | eval pctFree=round(IF(counter="% Free Space", Value, 0), 1) | timechart span=6h max(pctFree) by host
+index=client-funky* sourcetype="Perfmon:Free Disk Space" host=fplive-sql-101 instance=F: counter="% Free Space" | timechart span=6h max(Value) by host
 
-index=client-epub* sourcetype="Perfmon:Free Disk Space" host=epub-sql-0* instance=D: counter="% Free Space" | timechart span=6h min(Value) by host
 
 index=client-* sourcetype=httpmon site=*nissanconnect.co.nz | stats values(host) as h | table h
 
