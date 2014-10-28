@@ -17,6 +17,9 @@
   url = git@bitbucket.org:robinrob/c-plus-plus.git
   branch = master
   owner = robinrob
+[submodule "coffeescript"]
+  path = coffeescript
+  url = git@bitbucket.org:robinrob/coffeescript
 [submodule "force_com"]
   path = force_com
   url = git@bitbucket.org:robinrob/force.com
