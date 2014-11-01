@@ -1,3 +1,6 @@
+[submodule "awk"]
+  path = awk
+  url = git@bitbucket.org:robinrob/awk.git
 [submodule "aws"]
   path = aws
   url = git@bitbucket.org:robinrob/aws.git
@@ -43,8 +46,8 @@
   url = git@bitbucket.org:robinrob/python.git
   branch = master
 [submodule "rake"]
-	path = rake
-	url = git@bitbucket.org:robinrob/rakefile.git
+  path = rake
+  url = git@bitbucket.org:robinrob/rakefile.git
   branch = master
 [submodule "ruby"]
   path = ruby
@@ -61,6 +64,3 @@
   path = zsh
   url = git@bitbucket.org:robinrob/zsh.git
   branch = master
-[submodule "awk"]
-	path = awk
-	url = git@bitbucket.org:robinrob/awk.git
