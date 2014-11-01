@@ -1,0 +1,83 @@
+index=client-epub* host=epub-ftp-01 instance=H: sourcetype="Perfmon:Free Disk Space"  | eval pctFree=round(IF(counter="% Free Space", Value, 0), 1) | timechart max(pctFree)
+
+index=client-argus* sourcetype="Perfmon:Free Disk Space" host=argus-sitecore-frontend-1 instance=D: | eval pctFree=round(IF(counter="% Free Space", Value, 0), 1) | timechart span=10m max(pctFree)
+
+index=client-redfunnel sourcetype=cruserjourney
+
+index=client-cloudreach sourcetype=vpn_availability | table _time ip_ext status
+
+index=client-capco* device=*capco-us-sydlpdim1* sourcetype=icmpmon | table _time host device rtts ip
+
+index=client-argus* sourcetype=SQLServer:* | table _time db_name
+
+index=client-funkypigeon daysago=30 source="Perfmon:Free Disk Space" counter="% Free Space" C: host=*filer-02* NOT host=*fptest* NOT host=*taopix* | timechart min(Value) by host
+
+index=client-localworld host=lw-wps-1 OR host=host=lw-wps-2 sourcetype="vmstat" | multikv fields memFreePct | outlier | timechart min(memFreePct)
+
+index=client-concep domain=* | table _time domain status_cude ok
+
+index=client-argusmedia site="http://www.argusmedia.com" sourcetype=httpmon | table _time site status_code ok connect_ip
+
+index=client-scm* site=*scmworld.com* sourcetype=httpmon | table _time site status_code ok connect_ip
+
+index=client-mccann sourcetype=icmpmon device=mc-prod-openvpn | table _time rtts
+
+index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-B* | table _time dbhost databaseName _raw
+
+index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-B* databaseName=CCA365 | table _time dbhost databaseName _raw
+
+index=client-exeter* host=sql01-a-eff-amz.amazon.lakeside.exeter-friendly.com sourcetype="Perfmon:Free Disk Space" instance=K: | eval pctFree=round(IF(counter="% Free Space", Value, 0), 1) | timechart avg(pctFree) by instance
+
+index=client-localworld host=*seo*  sourcetype="vmstat" | multikv fields loadAvg1mi | timechart avg(loadAvg1mi)
+
+index=client-localworld* sourcetype="vmstat" host=lw-api* | multikv fields loadAvg1mi | timechart span="5m" avg(loadAvg1mi) by host
+
+index=client-localworld* sourcetype=cpu host=lw-api-1  | multikv fields pctIdle  | eval Percent_CPU_Load = 100 - pctIdle  | timechart avg(Percent_CPU_Load) by host
+
+index=client-localworld host=*  sourcetype="vmstat" | multikv fields loadAvg1mi | timechart avg(loadAvg1mi) by host
+
+index=client-* site=*funkypigeon.com* | table _time _site status_code ok
+
+
+# Linux disk usage
+index="client-capco" sourcetype="df" host=capco-aws-eu-cit | multikv fields Filesystem, UsePct, MountedOn, Size, Avail | eval mount_point=Filesystem | lookup transform_diskspace_lookup index,host,mount_point | eval pctFree=100 - tonumber(rtrim(UsePct,"%")) | timechart min(pctFree) by mount_point
+
+# Sourcetypes
+index=client-saadian | stats values(sourcetype) as s | table s
+
+index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-B* databaseName=CCA365 | eval parts=split(_raw,',') | eval success=mvindex(temp,1) | table _time databaseName parts success
+
+# Mem used
+index=client-jamie* host=jo-prodweb05 sourcetype=vmstat | timechart span=10m max(memUsedPct) by host
+
+# Split field value
+
+index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-B* databaseName=CCA365 | eval parts=split(_raw,",") | eval success_str=mvindex(parts,0) | success=IF(success_str="Success", true, false) | table _time success_str success
+
+
+index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-A* databaseName=CCA365 | eval parts=split(_raw,",") | eval success_str=mvindex(parts,0) | eval success=if(success_str="Success", 1, 0) | convert num(success) | timechart span=10m count(success)
+
+index="client-*" sourcetype=httpmon 
+| eval totalTime=dns_time + connect_time + redirection_time + request_time 
+| stats avg(totalTime) as avgTotalTime, sum(ok) as checks_ok, count(ok) as checks_count, values(status_code) as status_codes by index, domain, site, ssl, resource, host_header
+| mvcombine status_codes
+| eval host=domain
+| eval url=IF(ssl=1, "https", "http")+"://" + domain + resource
+| eval eventClass="/Status/HTTPmon"
+| eval checks_avg=checks_ok/checks_count
+| eval severity=IF(checks_avg < 1, IF(checks_avg <= 0.5, 5, IF(checks_avg <= 0.8, 4, 3)), 0)
+| eval message=tostring(checks_count-checks_ok) + " of " + checks_count + " checks failed (" + tostring(round(avgTotalTime, 2)) + "s / " + tostring(round(checks_avg * 100, 0)) + "%) with status codes: " + status_codes + ": " + url + IF(host_header != host, " host_header: " + host_header, "")
+| eval summary=message
+| eval dedup_override=index+":"+host+":"+url
+| table index, host, host_header, status_codes, eventClass, severity, message, summary, dedup_override
+
+
+index=client-cloudreach host=cr-sfdc | timechart span=10d max(data_space_percent)
+
+
+index=client-funky* sourcetype="Perfmon:Free Disk Space" host=fplive-sql-101 instance=F: counter="% Free Space" | timechart span=6h max(Value) by host
+
+
+index=client-* sourcetype=httpmon site=*nissanconnect.co.nz | stats values(host) as h | table h
+
+index=client-* sourcetype=vpn_availability host=cr-prod-ap-southeast-1-strongswan | eval statusnum=IF(status="up",1,0) | convert num(statusnum) | timechart span=10m min(statusnum)
