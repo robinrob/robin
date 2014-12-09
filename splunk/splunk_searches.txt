@@ -26,7 +26,7 @@ index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-B* | table _time dbhost
 
 index=client-exeter* sourcetype=SQLServer:* dbhost=SQL01-B* databaseName=CCA365 | table _time dbhost databaseName _raw
 
-index=client-exeter* host=sql01-a-eff-amz.amazon.lakeside.exeter-friendly.com sourcetype="Perfmon:Free Disk Space" instance=K: | eval pctFree=round(IF(counter="% Free Space", Value, 0), 1) | timechart avg(pctFree) by instance
+index=client-exeter* host=sql01-a-eff-amz.amazon.lakeside.exeter-friendly.com sourcetype="Perfmon:Free Disk Space" instance=K: counter="% Free Space" | eval pctFree=round(Value) | timechart span=10m avg(pctFree) by instance
 
 index=client-localworld host=*seo*  sourcetype="vmstat" | multikv fields loadAvg1mi | timechart avg(loadAvg1mi)
 
@@ -80,4 +80,25 @@ index=client-funky* sourcetype="Perfmon:Free Disk Space" host=fplive-sql-101 ins
 
 index=client-* sourcetype=httpmon site=*nissanconnect.co.nz | stats values(host) as h | table h
 
+
 index=client-* sourcetype=vpn_availability host=cr-prod-ap-southeast-1-strongswan | eval statusnum=IF(status="up",1,0) | convert num(statusnum) | timechart span=10m min(statusnum)
+
+index=client-* sourcetype=httpmon site=*infiniti* | table _time site status_code ok
+
+index="client-nissan" host=nissan-NGCSS-PROD-ReverseProxy-EU-WEST-i-7ed2b33c sourcetype="vmstat" OR (sourcetype="Perfmon:Percent Memory In Use" AND counter="% Committed Bytes In Use") 
+| multikv fields memUsedPct 
+| lookup transform_memory_lookup host index 
+| eval Value=IF(Value!="", Value, memUsedPct) 
+| timechart avg(Value) 
+
+index=client-liverpool* sourcetype=httpmon | stats values(site) as s | table s
+
+index=client-bp sourcetype=file-check | eval success=IF(success_str="*success=1*", 1, 0) | convert num(success) | timechart span=10m count(success)
+
+index=client-harrington* host=hb-cloudsql01 sourcetype=WinEventLog:Application EventCode=122
+
+index=client-harrington* host=hb-cloudsql01 sourcetype=WinEventLog:Application EventCode=122 | table _time Message
+
+index=client-redfunnel sourcetype=httpmon site=http://www.redfunnel.co.uk | stats values(connect_ip) as ip | table ip
+
+index=client-redfunnel sourcetype=httpmon site=http://www.redfunnel.co.uk | table _time site connect_ip ok status
