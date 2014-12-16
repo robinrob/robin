@@ -1,65 +1,65 @@
 [submodule "awk"]
   path = awk
-  url = git@bitbucket.org:robinrob/awk.git
+  url = git@github.com:robinrob/awk.git
 [submodule "aws"]
   path = aws
-  url = git@bitbucket.org:robinrob/aws.git
+  url = git@github.com:robinrob/aws.git
 [submodule "c"]
   path = c
-  url = git@bitbucket.org:robinrob/c.git
+  url = git@github.com:robinrob/c.git
   branch = master
 [submodule "c-plus-plus"]
   path = c-plus-plus
-  url = git@bitbucket.org:robinrob/c-plus-plus.git
+  url = git@github.com:robinrob/c-plus-plus.git
   branch = master
 [submodule "coffeescript"]
   path = coffeescript
-  url = git@bitbucket.org:robinrob/coffeescript.git
+  url = git@github.com:robinrob/coffeescript.git
 [submodule "force.com"]
   path = force.com
-  url = git@bitbucket.org:robinrob/force.com.git
+  url = git@github.com:robinrob/force.com.git
   branch = master
 [submodule "html-css"]
   path = html-css
-  url = git@bitbucket.org:robinrob/html-css.git
+  url = git@github.com:robinrob/html-css.git
   branch = master
 [submodule "java"]
   path = java
-  url = git@bitbucket.org:robinrob/java.git
+  url = git@github.com:robinrob/java.git
   branch = master
 [submodule "javascript"]
   path = javascript
-  url = git@bitbucket.org:robinrob/javascript.git
+  url = git@github.com:robinrob/javascript.git
   branch = master
 [submodule "markdown"]
   path = markdown
-  url = git@bitbucket.org:robinrob/markdown.git
+  url = git@github.com:robinrob/markdown.git
 [submodule "ocaml"]
   path = ocaml
-  url = git@bitbucket.org:robinrob/ocaml.git
+  url = git@github.com:robinrob/ocaml.git
 [submodule "perl"]
   path = perl
-  url = git@bitbucket.org:robinrob/perl.git
+  url = git@github.com:robinrob/perl.git
   branch = master
 [submodule "python"]
   path = python
-  url = git@bitbucket.org:robinrob/python.git
+  url = git@github.com:robinrob/python.git
   branch = master
 [submodule "rakelib"]
   path = rakelib
-  url = git@bitbucket.org:robinrob/rakelib.git
+  url = git@github.com:robinrob/rakelib.git
 [submodule "ruby"]
   path = ruby
-  url = git@bitbucket.org:robinrob/ruby.git
+  url = git@github.com:robinrob/ruby.git
   branch = master
 [submodule "scala"]
   path = scala
-  url = git@bitbucket.org:robinrob/scala.git
+  url = git@github.com:robinrob/scala.git
 [submodule "sh"]
   path = sh
-  url = git@bitbucket.org:robinrob/sh.git
+  url = git@github.com:robinrob/sh.git
   branch = master
 [submodule "zsh"]
   path = zsh
-  url = git@bitbucket.org:robinrob/zsh.git
+  url = git@github.com:robinrob/zsh.git
   branch = master
