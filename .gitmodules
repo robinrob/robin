@@ -14,7 +14,7 @@
   url = git@github.com:robinrob/coffeescript.git
 [submodule "force.com"]
   path = force.com
-  url = git@bitbucket:robinrob/force.com.git
+  url = git@bitbucket.org:robinrob/force.com.git
   branch = master
 [submodule "html-css"]
   path = html-css
