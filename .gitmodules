@@ -60,3 +60,6 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
+[submodule "docs"]
+	path = docs
+	url = git@bitbucket.org:robinrob/docs.git
