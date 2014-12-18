@@ -12,6 +12,9 @@
 [submodule "coffeescript"]
   path = coffeescript
   url = git@github.com:robinrob/coffeescript.git
+[submodule "docs"]
+  path = docs
+  url = git@bitbucket.org:robinrob/docs.git
 [submodule "force.com"]
   path = force.com
   url = git@bitbucket.org:robinrob/force.com.git
@@ -42,9 +45,6 @@
   path = python
   url = git@github.com:robinrob/python.git
   branch = master
-[submodule "rakelib"]
-  path = rakelib
-  url = git@github.com:robinrob/rakelib.git
 [submodule "ruby"]
   path = ruby
   url = git@github.com:robinrob/ruby.git
@@ -60,6 +60,3 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "docs"]
-	path = docs
-	url = git@bitbucket.org:robinrob/docs.git
