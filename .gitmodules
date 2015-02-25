@@ -60,3 +60,6 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
+[submodule "gimp"]
+	path = gimp
+	url = git@github.com:robinrob/gimp.git
