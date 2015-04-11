@@ -63,3 +63,6 @@
 [submodule "gimp"]
 	path = gimp
 	url = git@github.com:robinrob/gimp.git
+[submodule "sprites"]
+	path = sprites
+	url = git@github.com:robinrob/sprites.git
