@@ -66,3 +66,6 @@
 [submodule "sprites"]
 	path = sprites
 	url = git@github.com:robinrob/sprites.git
+[submodule "coq"]
+	path = coq
+	url = git@github.com:robinrob/coq.git
