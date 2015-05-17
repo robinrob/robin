@@ -61,14 +61,14 @@
   url = git@github.com:robinrob/zsh.git
   branch = master
 [submodule "gimp"]
-	path = gimp
-	url = git@github.com:robinrob/gimp.git
+  path = gimp
+  url = git@github.com:robinrob/gimp.git
 [submodule "sprites"]
-	path = sprites
-	url = git@github.com:robinrob/sprites.git
+  path = sprites
+  url = git@github.com:robinrob/sprites.git
 [submodule "coq"]
-	path = coq
-	url = git@github.com:robinrob/coq.git
+  path = coq
+  url = git@github.com:robinrob/coq.git
 [submodule "unity"]
-	path = unity
-	url = git@github.com:robinrob/unity.git
+  path = unity
+  url = git@github.com:robinrob/unity.git
