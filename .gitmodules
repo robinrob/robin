@@ -69,3 +69,6 @@
 [submodule "coq"]
 	path = coq
 	url = git@github.com:robinrob/coq.git
+[submodule "unity"]
+	path = unity
+	url = git@github.com:robinrob/unity.git
