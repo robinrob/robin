@@ -12,6 +12,9 @@
 [submodule "coffeescript"]
   path = coffeescript
   url = git@github.com:robinrob/coffeescript.git
+[submodule "coq"]
+  path = coq
+  url = git@github.com:robinrob/coq.git
 [submodule "docs"]
   path = docs
   url = git@bitbucket.org:robinrob/docs.git
@@ -56,19 +59,13 @@
   path = sh
   url = git@github.com:robinrob/sh.git
   branch = master
+[submodule "sprites"]
+  path = sprites
+  url = git@github.com:robinrob/sprites.git
+[submodule "unity"]
+  path = unity
+  url = git@github.com:robinrob/unity.git
 [submodule "zsh"]
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "gimp"]
-  path = gimp
-  url = git@github.com:robinrob/gimp.git
-[submodule "sprites"]
-  path = sprites
-  url = git@github.com:robinrob/sprites.git
-[submodule "coq"]
-  path = coq
-  url = git@github.com:robinrob/coq.git
-[submodule "unity"]
-  path = unity
-  url = git@github.com:robinrob/unity.git
