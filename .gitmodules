@@ -15,10 +15,6 @@
 [submodule "coq"]
   path = coq
   url = git@github.com:robinrob/coq.git
-[submodule "force.com"]
-  path = force.com
-  url = git@bitbucket.org:robinrob/force.com.git
-  branch = master
 [submodule "html-css"]
   path = html-css
   url = git@github.com:robinrob/html-css.git
