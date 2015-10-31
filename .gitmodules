@@ -15,9 +15,6 @@
 [submodule "coq"]
   path = coq
   url = git@github.com:robinrob/coq.git
-[submodule "css"]
-  path = css
-  url = git@github.com:robinrob/css
 [submodule "html5"]
   path = html5
   url = git@github.com:robinrob/html5
