@@ -15,6 +15,9 @@
 [submodule "coq"]
   path = coq
   url = git@github.com:robinrob/coq.git
+[submodule "css"]
+  path = css
+  url = git@github.com:robinrob/css
 [submodule "html5"]
   path = html5
   url = git@github.com:robinrob/html5
@@ -29,16 +32,18 @@
 [submodule "markdown"]
   path = markdown
   url = git@github.com:robinrob/markdown.git
+[submodule "node"]
+  path = node
+  url = git@github.com:robinrob/node
 [submodule "ocaml"]
   path = ocaml
   url = git@github.com:robinrob/ocaml.git
+[submodule "octave"]
+  path = octave
+  url = git@github.com:robinrob/octave
 [submodule "perl"]
   path = perl
   url = git@github.com:robinrob/perl.git
-  branch = master
-[submodule "python"]
-  path = python
-  url = git@github.com:robinrob/python.git
   branch = master
 [submodule "res"]
   path = res
@@ -61,9 +66,9 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "css"]
-	path = css
-	url = git@github.com:robinrob/css
-[submodule "node"]
-	path = node
-	url = git@github.com:robinrob/node
+[submodule "python"]
+	path = python
+	url = git@github.com:robinrob/python
+[submodule "go"]
+	path = go
+	url = git@bitbucket.org:robinrob/go
