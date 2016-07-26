@@ -72,3 +72,6 @@
 [submodule "go"]
 	path = go
 	url = git@bitbucket.org:robinrob/go
+[submodule "typescript"]
+	path = typescript
+	url = git@bitbucket.org:robinrob/typescript
