@@ -9,6 +9,9 @@
   path = c-plus-plus
   url = git@github.com:robinrob/c-plus-plus.git
   branch = master
+[submodule "c_sharp"]
+  path = c_sharp
+  url = git@github.com:robinrob/c_sharp.git
 [submodule "coffeescript"]
   path = coffeescript
   url = git@github.com:robinrob/coffeescript.git
@@ -18,9 +21,6 @@
 [submodule "css"]
   path = css
   url = git@github.com:robinrob/css
-[submodule "go"]
-  path = go
-  url = git@bitbucket.org:robinrob/go
 [submodule "html5"]
   path = html5
   url = git@github.com:robinrob/html5
@@ -75,3 +75,6 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
+[submodule "go"]
+	path = go
+	url = git@github.com:robinrob/go.git
