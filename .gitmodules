@@ -9,6 +9,9 @@
   path = c-plus-plus
   url = git@github.com:robinrob/c-plus-plus.git
   branch = master
+[submodule "c_sharp"]
+  path = c_sharp
+  url = git@github.com:robinrob/c_sharp.git
 [submodule "coffeescript"]
   path = coffeescript
   url = git@github.com:robinrob/coffeescript.git
@@ -18,6 +21,9 @@
 [submodule "css"]
   path = css
   url = git@github.com:robinrob/css
+[submodule "go"]
+  path = go
+  url = git@bitbucket.org:robinrob/go
 [submodule "html5"]
   path = html5
   url = git@github.com:robinrob/html5
@@ -45,6 +51,9 @@
   path = perl
   url = git@github.com:robinrob/perl.git
   branch = master
+[submodule "python"]
+  path = python
+  url = git@github.com:robinrob/python
 [submodule "res"]
   path = res
   url = git@github.com:robinrob/res.git
@@ -59,6 +68,9 @@
   path = sh
   url = git@github.com:robinrob/sh.git
   branch = master
+[submodule "typescript"]
+  path = typescript
+  url = git@bitbucket.org:robinrob/typescript
 [submodule "unity"]
   path = unity
   url = git@github.com:robinrob/unity.git
@@ -66,15 +78,3 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "python"]
-	path = python
-	url = git@github.com:robinrob/python
-[submodule "go"]
-	path = go
-	url = git@bitbucket.org:robinrob/go
-[submodule "typescript"]
-	path = typescript
-	url = git@bitbucket.org:robinrob/typescript
-[submodule "c_sharp"]
-	path = c_sharp
-	url = git@github.com:robinrob/c_sharp.git
