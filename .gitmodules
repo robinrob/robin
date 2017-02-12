@@ -9,9 +9,6 @@
   path = c-plus-plus
   url = git@github.com:robinrob/c-plus-plus.git
   branch = master
-[submodule "c_sharp"]
-  path = c_sharp
-  url = git@github.com:robinrob/c_sharp.git
 [submodule "coffeescript"]
   path = coffeescript
   url = git@github.com:robinrob/coffeescript.git
