@@ -21,6 +21,9 @@
 [submodule "css"]
   path = css
   url = git@github.com:robinrob/css
+[submodule "go"]
+  path = go
+  url = git@github.com:robinrob/go.git
 [submodule "html5"]
   path = html5
   url = git@github.com:robinrob/html5
@@ -65,6 +68,12 @@
   path = sh
   url = git@github.com:robinrob/sh.git
   branch = master
+[submodule "swift"]
+  path = swift
+  url = git@github.com:robinrob/swift.git
+[submodule "swift/projects/calculator"]
+  path = swift/projects/calculator
+  url = git://github.com/robinrob/calculator.git
 [submodule "typescript"]
   path = typescript
   url = git@bitbucket.org:robinrob/typescript
@@ -75,6 +84,3 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "go"]
-	path = go
-	url = git@github.com:robinrob/go.git
