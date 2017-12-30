@@ -68,9 +68,6 @@
   path = sh
   url = git@github.com:robinrob/sh.git
   branch = master
-[submodule "swift"]
-  path = swift
-  url = git@github.com:robinrob/swift.git
 [submodule "swift/projects/calculator"]
   path = swift/projects/calculator
   url = git://github.com/robinrob/calculator.git
@@ -84,3 +81,6 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
+[submodule "swift"]
+	path = swift
+	url = git@github.com:robinrob/swift.git
