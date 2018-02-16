@@ -35,9 +35,6 @@
   path = javascript
   url = git@github.com:robinrob/javascript.git
   branch = master
-[submodule "markdown"]
-  path = markdown
-  url = git@github.com:robinrob/markdown.git
 [submodule "node"]
   path = node
   url = git@github.com:robinrob/node
@@ -68,6 +65,9 @@
   path = sh
   url = git@github.com:robinrob/sh.git
   branch = master
+[submodule "swift"]
+  path = swift
+  url = git@github.com:robinrob/swift.git
 [submodule "swift/projects/calculator"]
   path = swift/projects/calculator
   url = git://github.com/robinrob/calculator.git
@@ -81,6 +81,3 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "swift"]
-	path = swift
-	url = git@github.com:robinrob/swift.git
