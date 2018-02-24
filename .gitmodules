@@ -2,8 +2,8 @@
   path = awk
   url = git@github.com:robinrob/awk.git
 [submodule "c"]
-	path = c
-	url = git@github.com:robinrob/c
+  path = c
+  url = git@github.com:robinrob/c
   branch = master
 [submodule "c-plus-plus"]
   path = c-plus-plus
@@ -81,3 +81,6 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
+[submodule "applescript"]
+	path = applescript
+	url = git@github.com:robinrob/applescript
