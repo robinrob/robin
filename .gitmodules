@@ -1,3 +1,6 @@
+[submodule "applescript"]
+  path = applescript
+  url = git@github.com:robinrob/applescript
 [submodule "awk"]
   path = awk
   url = git@github.com:robinrob/awk.git
@@ -24,9 +27,9 @@
 [submodule "go"]
   path = go
   url = git@github.com:robinrob/go.git
-[submodule "html5"]
-  path = html5
-  url = git@github.com:robinrob/html5
+[submodule "html"]
+  path = html
+  url = git@github.com:robinrob/html
 [submodule "java"]
   path = java
   url = git@github.com:robinrob/java.git
@@ -48,6 +51,9 @@
   path = perl
   url = git@github.com:robinrob/perl.git
   branch = master
+[submodule "php"]
+  path = php
+  url = git@github.com:robinrob/php
 [submodule "python"]
   path = python
   url = git@github.com:robinrob/python
@@ -81,6 +87,3 @@
   path = zsh
   url = git@github.com:robinrob/zsh.git
   branch = master
-[submodule "applescript"]
-	path = applescript
-	url = git@github.com:robinrob/applescript
