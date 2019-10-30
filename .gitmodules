@@ -77,9 +77,6 @@
 [submodule "swift/projects/calculator"]
   path = swift/projects/calculator
   url = git://github.com/robinrob/calculator.git
-[submodule "typescript"]
-  path = typescript
-  url = git@bitbucket.org:robinrob/typescript
 [submodule "unity"]
   path = unity
   url = git@github.com:robinrob/unity.git
